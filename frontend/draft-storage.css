@@ -1,0 +1,7 @@
+.local-draft-box{margin:16px 0 24px;padding:16px 18px;border:1px solid #d2e2ef;border-radius:14px;background:#f2f7fc}
+.local-draft-box h3{font-size:15px;margin:0 0 10px}.local-draft-toggle{display:flex;align-items:center;gap:10px;min-height:44px;font-size:14px;font-weight:600;cursor:pointer}.local-draft-toggle input{width:18px;height:18px;accent-color:#2563a6;flex:none}
+.local-draft-note,#localDraftStatus{margin:8px 0;font-size:12px;line-height:1.8;color:var(--muted);overflow-wrap:anywhere}#localDraftStatus[data-state=error]{color:#a03737;font-weight:500}
+.local-draft-box .draft-actions{margin:12px 0 0;gap:8px;flex-wrap:wrap}.local-draft-box .btn-ghost{min-height:40px;padding:8px 12px;font-size:13px}
+@media(max-width:700px){.local-draft-box{padding:14px 12px}.local-draft-box .btn-ghost{min-height:44px;flex:1 1 110px}.local-draft-note,#localDraftStatus{font-size:13px}}
+
+.local-draft-confirm{margin-top:12px;padding:12px;border:1px solid #aac5df;border-radius:10px;background:#fff}.local-draft-confirm[hidden]{display:none}.local-draft-confirm p{margin:0;font-size:13px;line-height:1.7}.local-draft-confirm .btn-primary{min-height:40px;padding:8px 12px;font-size:13px}
